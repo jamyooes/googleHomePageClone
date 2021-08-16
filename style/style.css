@@ -1,0 +1,120 @@
+a{
+  text-decoration: none;
+}
+
+.top-navbar a {
+  color: black;
+  display: inline-block;
+  font-family: roboto, arial, sans-serif;
+  font-size: 14px;
+  margin: 5px 5px;
+  padding: 5px;
+}
+
+.top-left{
+  display:inline-block;
+  margin-top: 5px;;
+}
+
+.top-right{
+  float: right;
+}
+
+.sign-in{
+  background:#1a73e8;
+}
+
+.top-right .sign-in{
+  color:white;
+  border-radius: 5%;
+  font-size: 14px;
+  margin-right: 8px;
+  padding: 10px 25px;
+  text-align: center;
+  position:relative;
+}
+
+a.sign-in:hover{
+  box-shadow: 1px 2px 1px #777;
+}
+
+.logo
+{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 15% 0 0 0;
+}
+
+.logo img{
+  flex-direction: column;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.searchBar{
+  border: 2px solid #f2f3f4;
+  display: flex;
+  border-radius: 30px;
+  height: 1.5rem;
+  padding: 10px;
+  margin:auto;
+  width: 580px;
+}
+.searchBar .search{
+  border: none;
+  font-size: 16px;
+  font-family: roboto,arial,sans-serif;
+  height: 2rem;
+  position: relative;
+  top: -6px;
+  right: -30px;
+  outline: none;
+  text-decoration: none;
+  width: 480px;
+}
+
+.feeling_lucky{
+  display:flex;
+}
+
+.feeling_lucky .centering{
+  margin:auto;
+  margin-top: 30px;
+}
+
+.feeling_lucky .centering a{
+  font-family: roboto,arial,sans-serif;
+  font-size: 15px;
+  background-color: #f8f9fa;
+  color: black;
+  padding: 10px 16px;
+}
+
+.feeling_lucky .centering .searchButton{
+  margin-right: 20px;
+}
+
+.bottom-navbar{
+  display: block;
+  position:fixed;
+  bottom: 0;
+  color: grey;
+  font-size: 14px;
+  font-family: roboto, arial, sans-serif;
+  left: 0;
+  width:100%;
+  background-color: #eff0f1;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.bottom-navbar .left a{
+  margin-left: 33px;
+  float:left;
+}
+
+.bottom-navbar .right a{
+  margin-right: 33px;
+  float:right;
+}
