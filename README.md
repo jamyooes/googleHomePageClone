@@ -1,6 +1,6 @@
 # googleHomePageClone
 Description: A simple html and css clone of the home google search page
-
+https://jamyooes.github.io/googleHomePageClone/
 ------------------------------------------------------
 Goal: Refresh on css and html
 
